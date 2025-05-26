@@ -101,7 +101,7 @@ export const useBoardStore = create<BoardState>((set,get) => ({
       }
       )
 
-      alert($id)
+      alert('task added successfully')
 
       set({newTask:''})
 

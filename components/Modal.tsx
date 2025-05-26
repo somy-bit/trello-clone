@@ -72,7 +72,7 @@ export default function Modal() {
                     type='text'
                     value={newTask}
                     onChange={e => setNewTask(e.target.value)}
-                    className='w-full border border-gray-500 rounded-md outline-none p-5'
+                    className='w-full border border-gray-500 text-gray-700 rounded-md outline-none p-5'
                   />
                 </div>
                 <TaskTypeRadioGroup />
